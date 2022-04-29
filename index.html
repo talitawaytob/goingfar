@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/a8f99b4b1d.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>GoingFar</title>
+</head>
+
+
+<body data-spy="scroll" data-target="#navbar-site" data-offset="180">
+
+  <nav class="navbar navbar-light fixed-top navbar-expand-md" id="navbar-site">
+    <div class="container">
+
+      <button class="navbar-toggler" type="button"
+        data-toggle="collapse" data-target="#myTogglerNav"
+        aria-controls="myTogglerNav"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <a href="#intro-section" class="navbar-brand">
+        <img src="images/logo-black.png" width="150" alt="GoingFar logo">
+      </a>
+
+      <div class="collapse navbar-collapse justify-content-end" id="myTogglerNav">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="#product">What We Do</a>
+          <a class="nav-item nav-link" href="#about-section">About</a>
+          <a class="nav-item nav-link" href="#testimonial-section">Testimonials</a>
+          <a class="nav-item nav-link btn mt-2 mt-md-0" id="nav-button" href="#donate">Donate</a>
+  <!--    <a class="nav-item nav-link" href="#" data-target="#loginmodal" data-toggle="modal">Sign Up</a>
+          <a class="nav-item nav-link btn mt-2 mt-md-0" id="nav-button" href="#contact-section">Log In</a> -->
+        </div><!-- navbar -->
+      </div><!-- collapse -->
+
+    </div><!-- container -->
+  </nav><!-- nav -->
+
+  <div class="modal fade" id="loginmodal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Log in</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div> <!-- modal header -->
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label class="form-control-label" for="username">Username</label>
+              <input class="form-control" type="text" id="username" placeholder="Your username">
+            </div>
+            <div class="form-group">
+              <label class="form-control-label" for="password">Password</label>
+              <input class="form-control" type="text" id="password" placeholder="Your password">
+            </div>
+          </form>
+          <small>Don't have an account yet? <a href="">Sign up.</a></small>
+        </div> <!-- modal body -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Back</button>
+        </div> <!-- modal footer -->
+      </div> <!-- modal content -->
+    </div> <!-- modal dialog -->
+  </div> <!-- modal -->
+
+  <section id="intro-section">
+    <div class="section-break-container">
+      <div class="section-break-top blue-squiggle-top"></div>
+      <div class="section-break-bottom blue-squiggle-bottom"></div>
+      <div class="intro-main">
+        <div class="container">
+          <h1 id="intro-title">For diverse migrant professionals in Ireland</h2>
+          <div class="row">
+            <div class="col-lg-4 d-flex flex-column justify-content-center">
+              <h2 id="intro-title">Take the next step towards your career goals.</h2>
+              <p class="text-light">GoingFar was created with the mission to provide tools and resources for migrant professionals to thrive in their careers.</p>
+              <div id="join-btn">
+                <a href="http://eepurl.com/gEph85" target="_blank" class="btn mb-5 mb-lg-0" id="intro-button">Join us!</a>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="carousel slide carousel-fade" id="intro" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#intro" data-slide-to="0"></li>
+                  <li data-target="#intro" data-slide-to="1" class="active"></li>
+                  <li data-target="#intro" data-slide-to="2"></li>
+                  <li data-target="#intro" data-slide-to="3"></li>
+                  <li data-target="#intro" data-slide-to="4"></li>
+                  <li data-target="#intro" data-slide-to="5"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item">
+                    <img class="img-intro d-block w-100 rounded" src="images/2.jpg" alt="User with hearing aid showing the 'you have arrived' icon on their watch">
+                  </div>
+                  <div class="carousel-item active">
+                    <img class="img-intro d-block w-100 rounded" src="images/1.jpg" alt="User smiling and showing the waytoB app on their watch">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="img-intro d-block w-100 rounded" src="images/3.jpg" alt="User showing watch with the 'cross to the left' icon">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="img-intro d-block w-100 rounded" src="images/4.jpg" alt="User showing watch with the 'cross to the left' icon">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="img-intro d-block w-100 rounded" src="images/5.jpg" alt="User showing watch with the 'cross to the left' icon">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="img-intro d-block w-100 rounded" src="images/6.jpg" alt="User showing watch with the 'cross to the left' icon">
+                  </div>
+
+                </div> <!-- carousel inner -->
+              </div> <!-- carousel -->
+            </div> <!-- col -->
+          </div> <!-- row -->
+        </div> <!-- container -->
+      </div> <!-- intro-main -->
+    </div> <!-- section break -->
+  </section> <!-- intro -->
+
+  <section id="product">
+    <h1 class="my-3">What We Do</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card mb-5" id="navigator">
+            <img class="card-img img-fluid" src="images/workshop-dr.png" alt="GoingFar event at Microsoft">
+            <div class="card-body d-flex flex-column">
+              <h2 class="card-title mb-4">Events</h2>
+              <h5 class="card-subtitle">Conference</h5>
+              <p class="card-text">Annual event with talks by leading and experienced professionals about relevant career topics.</p>
+              <h5 class="card-subtitle">Workshops</h5>
+              <p class="card-text">Inclusive workshops for diverse migrants to learn new skills.</p>
+              <h5 class="card-subtitle">Roundtables</h5>
+              <p class="card-text">Opportunity for migrants to get together and share ideas.</p>
+            </div> <!-- card body -->
+            <a class="btn card-btn" href="https://www.youtube.com/watch?v=NIuW4yOxET8&t=1s" target="_blank">Watch video</a>
+          </div> <!-- card navigator -->
+        </div> <!-- col -->
+
+        <div class="col-lg-4">
+          <div class="card mb-5" id="partner">
+            <img class="card-img imf-flui" src="images/program-dr.png" alt="Phone showing user's location on a map">
+            <div class="card-body d-flex flex-column">
+              <h2 class="card-title mb-4">Mentorship</h2>
+              <h5 class="card-subtitle">Just for you</h5>
+              <p class="card-text">At least 3 individual sessions with a mentor selected specifically for your needs.</p>
+              <h5 class="card-subtitle">Focused</h5>
+              <p class="card-text">Short 3-month programme tailored to help you quickly achieve your goals.</p>
+              <h5 class="card-subtitle">Leading corporate partners</h5>
+              <p class="card-text">Mentors from companies like Microsoft, Salesforce and Google.</p>
+            </div> <!-- card body -->
+            <a class="btn card-btn" href="https://forms.gle/pPCxFpi1Q34Mc7A77" target="_blank">Apply now</a>
+          </div> <!-- card partner -->
+        </div> <!-- col -->
+
+        <div class="col-lg-4">
+          <div class="card mb-5" id="admin">
+            <img class="card-img img-fluid" src="images/resources-dr.png" alt="Laptop showing several individuals' locations on a map">
+            <div class="card-body d-flex flex-column">
+              <h2 class="card-title mb-4">Migrant Portal</h2>
+              <h5 class="card-subtitle">Resources</h5>
+              <p class="card-text">Short video tutorials on paramount topics for job seekers, leaders and entrepreneurs.</p>
+              <h5 class="card-subtitle">Tools</h5>
+              <p class="card-text">Free tools and templates for important documents such as business plans.</p>
+              <h5 class="card-subtitle">Community</h5>
+              <p class="card-text">Opporutnity to engage with other migrant professionals.</p>
+            </div> <!-- card body -->
+            <a class="btn card-btn" href="mailto:hello@goingfar.co?subject=Migrant Portal Interest&body=Hi, I would like to register my interest in the GoingFar Migrant Portal. Please send me an email when it's live!" target="_blank">Register interest</a>
+          </div> <!-- card admin -->
+        </div> <!-- col -->
+      </div> <!-- row -->
+
+      <div id="ukraine">
+        <div class="row" id="ukrainetitle">
+          <h1>Mentorship for Ukrainian Refugees</h1>
+        </div>
+        <div class="row" id="ukrainebody">
+          <div class="col-lg-4" id="ukrainementee">
+            <h2>If you are <br>a Ukrainian Refugee 🇺🇦</h2>
+            <p>We are running a simplified version of our mentoring programme specifically to support you in finding employment quickly.</p>
+            <p>Your mentor will be an established professional who will help you in optimising your CV/LinkedIn profile, practicing for interviews and finding the right opportunities.</p>
+            <a class="btn" href="https://forms.gle/taop1PabDM4ktcdV7" target="_blank">Sign Up</a>
+          </div>
+          <div class="col-lg-4" id="ukrainementor">
+            <h2>If you are <br>a professional in Ireland 🇮🇪</h2>
+            <p>Have experience working in Ireland and would like to help? We are looking for mentors from all industries to support Ukrainian Refugees to find employment.</p>
+            <p>You will be expected to work with your mentee for at least 3-4 hours to help them find work opportunities and maximise their chances of succeeding in their job search.</p>
+            <a class="btn card-btn" href="https://forms.gle/XKNkpeAGNWhH8uR77" target="_blank">Sign Up</a>
+          </div>
+        </div>
+      </div>
+
+  </section> <!-- product -->
+
+  <section id="about-section">
+    <div class="section-break-container">
+      <div class="section-break-top pink-squiggle-top"></div>
+      <div class="section-break-bottom pink-squiggle-bottom"></div>
+      <div class="about-main">
+        <div class="container">
+          <h1 id="about-title">About Us</h1>
+          <div class="row">
+            <div class="col-lg-4">
+              <h2 id="about-title">1 in 6 people are not born in ireland.</h2>
+              <p class="text-light">Despite the obvious advantages of having gender and ethnic diversity in the workplace, migrants, women and non-binary people continue to lack access to the Irish tech and startup communities and the support system that comes with them.</p>
+              <p class="text-light">By celebrating the diverse contributions of migrants and providing support to advance their careers, we can improve our ability to tap into the unexplored skills that help the global economy thrive.</p>
+              <p class="text-light">GoingFar was created to address this, by offering a range of programmes, from mentoring to seminars and workshops. We have a network of over 2,000 people and have directly supported 800+ migrants since November 2018.</p>
+            </div> <!-- col -->
+
+            <div class="col-lg-8">
+              <img class="img-intro img-about d-block w-100" src="images/about-bg.png" alt="Drawing of 5 people from diverse backgrounds.">
+            </div> <!-- col -->
+          </div> <!-- row -->
+
+          <div class="row" id="award-container">
+            <div class="col-lg-6" id="award-container2">
+              <div class="award-item mb-4">
+                <img class="wreath-left" src="images/wreath-left.svg" height="100" alt="Award icon left">
+                  <div class="award-info">
+                    <a id="award-header" href="https://www.emen-project.eu/goingfar-the-last-winner-of-the-m4m-call/">M4M Award</a>
+                    <div class="award-line text-light">European Migrant Entrepreneurship Network</div>
+                    <div class="award-line text-light">2020 Winner</div>
+                  </div> <!-- award info -->
+                  <img class="wreath-right" src="images/wreath-right.svg" height="100" alt="Award icon right">
+              </div> <!-- award item -->
+            </div><!-- row-->
+          </div> <!-- row-->
+
+        </div> <!-- container -->
+      </div> <!-- intro-main -->
+    </div> <!-- section break -->
+  </section> <!-- about -->
+
+  <section id="donate">
+    <h1 class="my-3">Help us support migrant and refugee professionals</h1>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-12">
+          <script src="https://donorbox.org/widget.js"; paypalExpress="false"></script><iframe src="https://donorbox.org/embed/support-goingfar-s-work-as-we-standwithukraine"; name="donorbox" allowpaymentrequest="allowpaymentrequest" seamless="seamless" frameborder="0" scrolling="no" height="900px" width="100%" style="max-width: 500px; min-width: 250px; max-height:none!important"></iframe>
+        </div>
+      </div> <!-- row -->
+  </section> <!-- donate -->
+
+  <section id="testimonial-section" class="team-section text-center my-5">
+    <h1 class="mt-3 mb-5">Testimonials</h1>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-4 mb-md-0 mb-5">
+          <div class="testimonial">
+            <div class="avatar mx-auto">
+              <img src="images/leyla.jpg" class="rounded-circle z-depth-1 img-fluid">
+            </div> <!-- avatar -->
+            <h4 class="font-weight-bold dark-grey-text mt-4">Leyla Karaha</h4>
+            <h6 class="font-weight-bold blue-text mb-3">Founder @ YourY Network</h6>
+            <p><i class="fas fa-quote-left pr-2"></i>I didn't have a business idea but I knew I wanted to start my own thing. It was great meeting all the ladies and mentors. I learnt so much and I was so inspired. That's why I was inspired to apply to organise a Startup Week Dublin event the year after in an area that's close to my heart, social entrepreneurship. I have started YourY Network since, organising events and providing resources to social entrepreneurs.<i class="fas fa-quote-right pl-2"></i></p>
+          </div> <!-- testimonial -->
+        </div> <!-- col -->
+
+        <div class="col-md-4 mb-md-0 mb-5">
+          <div class="testimonial">
+            <div class="avatar mx-auto">
+              <img src="images/bruna.jpg" class="rounded-circle z-depth-1 img-fluid">
+            </div> <!-- avatar -->
+            <h4 class="font-weight-bold dark-grey-text mt-4">Bruna Borges</h4>
+            <h6 class="font-weight-bold blue-text mb-3">Inside Sales Specialist @ Microsoft</h6>
+            <p><i class="fas fa-quote-left pr-2"></i>I'm originally from Brazil and moved to Ireland in 2019. I have a background in Business Management, but when I arrived, it was hard for me to find a job in my area. I attended my first GoingFar workshop in May 2019, which was when I started to feel hopeful about building a career here. I learned a lot during these events and made key connections, which allowed me to get my dream job at Microsoft! This would not have been possible without the workshops promoted by GoingFar.<i class="fas fa-quote-right pl-2"></i></p>
+          </div> <!-- testimonial -->
+        </div> <!-- col -->
+
+        <div class="col-md-4">
+          <div class="testimonial">
+            <div class="avatar mx-auto">
+              <img src="images/hanan.jpg" class="rounded-circle z-depth-1 img-fluid">
+            </div> <!-- avatar -->
+            <h4 class="font-weight-bold dark-grey-text mt-4">Hanan Swan</h4>
+            <h6 class="font-weight-bold blue-text mb-3">Founder @SlunchBox</h6>
+            <p><i class="fas fa-quote-left pr-2"></i>I was very very impressed with the first edition of #GoingFar! The mentors were so enthusiastic, and they gave me a lot of helpful feedback. I was very nervous to participate but this was the perfect push I needed to start my own company. I founded Slunchbox to provide fresh, healthy, hot meals to schools in Ireland after the event. Since, we have raised almost €20,000 in donations and have delivered over 7,500 meals in Dublin and Cork.<i class="fas fa-quote-right pl-2"></i></p>
+          </div> <!-- testimonial -->
+        </div> <!-- col -->
+      </div> <!-- row -->
+    </div> <!-- container -->
+  </section> <!-- testimonials -->
+
+  <section id="partners-section">
+    <h1 class="my-3">Partners</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 text-center">
+          <a href="https://www.microsoft.com/en-ie" target="_blank"><img src="images/microsoft.png" width="140" height="100" alt="Microsoft"></a>
+        </div>
+        <div class="col-md-3 text-center">
+          <a href="https://www.salesforce.com/eu/" target="_blank"><img src="images/salesforce.png" width="140" height="100" alt="Salesforce Logo"></a>
+        </div>
+      <!--  <div class="col-md-3 text-center">
+          <a href="https://www.docusign.com" target="_blank"><img src="images/docusign.png" width="140" height="100" alt="DocuSign Logo"></a>
+        </div> -->
+        <div class="col-md-3 text-center">
+          <a href="https://www.ireland.inco-group.co" target="_blank"><img src="images/inco.png" width="140" height="100" alt="INCO Academy Logo"></a>
+        </div>
+        <div class="col-md-3 text-center">
+          <a href="https://finedeeds.com" target="_blank"><img src="images/finedeeds.png" width="140" height="100" alt="FineDeeds Logo"></a>
+        </div>
+      </div>
+    </div> <!-- container -->
+  </section> <!-- partners -->
+
+  <section id="footer">
+    <div class="section-break-container">
+      <div class="section-break-top blue-squiggle-top"></div>
+      <div class="footer-main">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 d-flex flex-column align-items-center">
+              <div class="footer-column">
+                <img src="images/logo-white.png" width="150">
+                <p class="mb-5 ml-md-2 text-light">hello@goingfar.co</p>
+                <small class="mt-3 text-light d-none d-md-inline">Copyright © GoingFar 2022</small>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex flex-column align-items-center">
+              <div class="footer-column" id="footer-mailing">
+                <h5 class="title-footer">Mailing List</h5>
+                <p class="text-light" id="bethefirst">Be the first to hear about our programmes and events.</p>
+
+                <!-- Begin Mailchimp Signup Form -->
+            <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+              <div id="mc_embed_signup">
+                <form action="https://gmail.us4.list-manage.com/subscribe/post?u=603d9c6587b06d7f476bdc5a7&amp;id=895c26131d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                  <div class="form-row justify-content-center">
+                    <div id="mc_embed_signup_scroll">
+                      <div class="col-auto">
+                       <input type="text" placeholder="First Name" name="FNAME" class="form-control" id="mce-FNAME">
+                     </div>
+                    </div>
+
+                    <div class="col-auto">
+                      <input type="email" placeholder="Email" name="EMAIL" class="form-control" id="mce-EMAIL">
+                    </div>
+
+                    <div id="mce-responses" class="clear">
+                        <div class="response" id="mce-error-response" style="color:#fff"></div>
+                        <div class="response" id="mce-success-response" style="color: #fff"></div>
+                    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+
+                    <div class="col-auto">
+                      <button type="submit" value="Subscribe" name="subscribe" class="btn" id="subscribe-btn">Subscribe</button>
+                    </div>
+                </div>
+              </form>
+            </div>
+
+        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+        <!--End mc_embed_signup-->
+              </div>
+            </div>
+
+            <div class="col-md-4 footer-3 d-flex flex-column align-items-center">
+              <div class="footer-column">
+                <h5 class="title-footer">Follow</h5>
+                <div class="footer-social d-flex icon">
+                  <a href="https://www.instagram.com/goingfarie/" target="_blank"><i class="fa fa-instagram mr-2"></i></a>
+                  <a href="https://www.linkedin.com/company/goingfar/?viewAsMember=true" target="_blank"><i class="fa fa-linkedin mr-2"></i></a>
+                  <a href="https://twitter.com/GoingFarIE" target="_blank"><i class="fa fa-twitter mr-2"></i></a>
+                  <a href="https://www.facebook.com/goingfarie" target="_blank"><i class="fa fa-facebook mr-2"></i></a>
+                  <a href="https://goingfar-ie.medium.com" target="_blank"><i class="fa fa-medium mb-4"></i></a>
+                </div>
+            <!--    <a href=""><small>Terms and Conditions</small><a>
+                <a href=""><small>Privacy Policy</small></a> -->
+
+              </div>
+            </div> <!-- col -->
+          </div> <!-- row -->
+        </div> <!-- container -->
+      </div> <!-- footer-main -->
+    </div> <!-- section break -->
+  </section> <!-- footer-->
+
+
+  <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+$(function() {
+  var topoffset = 70; //variable for menu height
+
+  //Use smooth scrolling when clicking on navigation
+  $('.navbar-nav a').click(function() {
+    if (location.pathname.replace(/^\//,'') ===
+      this.pathname.replace(/^\//,'') &&
+      location.hostname === this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top-topoffset
+        }, 500);
+        return false;
+      } //target.length
+    } //click function
+  }); //smooth scrolling
+
+});
+</script>
+<script>
+$(function () {
+  $('[data-toggle="popover"]').popover();
+})
+</script>
+</body>
+</html>
